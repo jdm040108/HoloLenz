@@ -78,7 +78,7 @@ public class R_GameManager : MonoBehaviour
 
         if (random_colors[cur_index] == choose_colors[cur_index])
         {
-            if (cur_index >= random_colors.Count - 1) // 끝까지 다 맞췄을 때
+            if (cur_index > random_colors.Count - 1) // 끝까지 다 맞췄을 때
             {
                 cur_index = 0;
                 choose_colors.Clear();
