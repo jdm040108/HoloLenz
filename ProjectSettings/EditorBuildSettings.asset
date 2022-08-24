@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/DongMin/2_Scenes/ButtonTestScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/DH/Scenes/Remember_Game.unity
+    guid: 410991444b775454fa3ebe31116fbefc
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7448f7d563c44764daacd6129c823c21, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e74582f7a6a92fd41ace438a13b32d0a, type: 2}
